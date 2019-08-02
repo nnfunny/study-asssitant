@@ -1,4 +1,4 @@
-# study-assistant
+# Study Assistant
 
 ## Project setup
 ```
