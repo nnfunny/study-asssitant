@@ -10,7 +10,7 @@
     import Header from '../components/Header'
     import SideBar from '../components/SideBar'
     export default {
-        name: 'Home',
+        name: 'AboutMe',
         components: {
             Header,
             SideBar,
