@@ -35,7 +35,7 @@
             </li> 
             <!-- README page --> 
             <li> 
-                <a href="/read-me">README</a> 
+                <a href="/about-me">About Me</a> 
             </li>
             <!-- Contact page -->
             <li> 
