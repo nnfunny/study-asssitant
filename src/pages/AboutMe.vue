@@ -3,17 +3,20 @@
         <SideBar></SideBar>
         <div id="content">
             <Header title='README'></Header>
+            <Footer></Footer>
         </div>
     </div>
 </template>
 <script>
     import Header from '../components/Header'
     import SideBar from '../components/SideBar'
+    import Footer from '../components/Footer'
     export default {
         name: 'AboutMe',
         components: {
             Header,
             SideBar,
+            Footer,
         }
     }
 </script>
