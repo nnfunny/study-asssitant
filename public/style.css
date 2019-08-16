@@ -238,10 +238,6 @@ MEDIAQUERIES
         flex-direction: column;
     }
 
-    footer {
-        position: absolute;
-    }
-
     .footer {
         display: flex;
         align-items: center;

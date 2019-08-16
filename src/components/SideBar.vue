@@ -13,7 +13,7 @@
             <li class="active"> 
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Study Tools</a> 
                 <ul class="collapse list-unstyled" id="homeSubmenu"> 
-                    <li> <a href="#">English Story</a> </li> 
+                    <li> <a href="/english-story">English Story</a> </li> 
                     <li> <a href="#">Calculator</a> </li> 
                     <li> <a href="#">Todo List</a> </li> 
                     <li> <a href="#">Drawing</a> </li> 

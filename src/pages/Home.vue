@@ -3,9 +3,18 @@
         <SideBar></SideBar>
         <div id="content">
             <Header title='Home'></Header>
-            <img src="../assets/study.jpg" alt="Study" class="landing-image">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, molestias rerum animi laborum sed quidem eaque tenetur veritatis explicabo? Nisi atque ipsum doloremque laborum quas nostrum quidem asperiores. Architecto, enim!</p>
-            <Footer></Footer>
+            <div style="height: auto; position: relative">
+                <img src="../assets/study.jpg" alt="Study" class="landing-image">
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>
+                <Footer></Footer>
+            </div>
         </div>
     </div>
 </template>

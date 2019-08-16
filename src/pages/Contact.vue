@@ -3,6 +3,9 @@
         <SideBar></SideBar>
         <div id="content">
             <Header title='Contact'></Header>
+            <div style="height: 100vh; position: relative">
+
+            </div>
             <Footer></Footer>
         </div>
     </div>
