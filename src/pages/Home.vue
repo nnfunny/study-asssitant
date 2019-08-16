@@ -1,9 +1,9 @@
 <template>  
     <div class="wrapper">
         <SideBar></SideBar>
-        <div id="content">
+        <div id="content" >
             <Header title='Home'></Header>
-            <div style="height: auto; position: relative">
+            <div style="height: auto;">
                 <img src="../assets/study.jpg" alt="Study" class="landing-image">
                 <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, cum. Voluptate quod amet assumenda aperiam, molestiae odio alias eveniet? Illo, architecto praesentium fuga odio cum quos magni blanditiis repudiandae in.</p>

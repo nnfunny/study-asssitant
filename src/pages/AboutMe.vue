@@ -2,8 +2,8 @@
     <div class="wrapper">
         <SideBar></SideBar>
         <div id="content">
-            <Header title='README'></Header>
-            <div style="height: 100vh; position: relative">
+            <Header title='About Me'></Header>
+            <div style="height: 100vh">
                 
             </div>
             <Footer></Footer>

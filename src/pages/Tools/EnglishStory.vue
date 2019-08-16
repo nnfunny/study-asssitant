@@ -3,7 +3,7 @@
         <SideBar></SideBar>
         <div id="content">
             <Header title='English Story'></Header>
-            <div style="height: 100vh; position: relative">
+            <div style="height: 100vh">
 
             </div>
             <Footer></Footer>
