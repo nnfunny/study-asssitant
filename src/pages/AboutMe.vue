@@ -3,9 +3,7 @@
         <SideBar></SideBar>
         <div id="content">
             <Header title='About Me'></Header>
-            <div style="height: 100vh">
-                
-            </div>
+            <div style="height: 20vh"></div>
             <Footer></Footer>
         </div>
     </div>
