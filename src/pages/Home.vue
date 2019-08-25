@@ -7,33 +7,16 @@
             <div class="feature-container">
                 <div class="feature-statement">Study Assistant <b>facilitates</b> your learning and <b>boosts up</b> your motivation</div>
                 <div class="features">
-                    <div class="feature">
+                    <div class="feature" v-for="feature in features" v-bind:key="feature.id">
                         <div class="feature-name">
-                            Increase Productivity
+                            {{ feature.name }} 
                         </div>
-                        <div class="feature-icon"><i class="fas fa-award"></i></div>
+                        <div class="feature-icon"><i v-bind:class="[feature.icon]"></i></div>
                         <div class="feature-description">
-                            Boost up your value of progression and Extract certain achievements
+                            {{ feature.description }}
                         </div>
                     </div>
-                    <div class="feature">
-                        <div class="feature-name">
-                            Manifold Tools
-                        </div>
-                        <div class="feature-icon"><i class="fas fa-toolbox"></i></div>
-                        <div class="feature-description">
-                            Deploy and Run necessary study applications on browers, light and fast
-                        </div>
-                    </div>
-                    <div class="feature">
-                        <div class="feature-name">
-                            Relaxing time
-                        </div>
-                        <div class="feature-icon"><i class="fas fa-gamepad"></i></div>
-                        <div class="feature-description">
-                            Proivide some simple games to reduce stress
-                        </div>
-                    </div>     
+                        
                 </div>
                 <div class="get-started">
                     <router-link to="/english-story"><button class="button-started">Let's get started!</button></router-link>
@@ -50,6 +33,27 @@
     import Footer from '../components/Footer'
     export default {
         name: 'Home',
+        data: function () {
+            return {
+                features: [
+                    {
+                        name: "Increase Productivity",
+                        description: "Boost up your value of progression and Extract certain achievements",
+                        icon: "fas fa-award",
+                    },
+                    {
+                        name: "Manifold Useful Tools",
+                        description: "Deploy and Run necessary study applications on browers, light and fast",
+                        icon: "fas fa-toolbox",
+                    },
+                    {
+                        name: "Relaxing time",
+                        description: "Proivide some simple games to reduce stress",
+                        icon: "fas fa-gamepad",
+                    },
+                ]
+            }
+        },
         components: {
             Header,
             SideBar,
@@ -99,6 +103,7 @@
     .feature-name {
         font-weight: bold;
         font-size: 1.2rem;
+        text-align: center;
     }
 
     .feature-icon {
