@@ -172,11 +172,10 @@ footer{
 }
 
 footer {
-    background: rgb(238, 241, 239);
     padding: 1rem 0;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: auto;
 }
 
 footer .logo-font {
@@ -194,7 +193,7 @@ footer .attribution {
 /* ---------------------------------------------------
 MEDIAQUERIES
 ----------------------------------------------------- */    
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #title-site.active {
         opacity: 0;
     }    
@@ -243,6 +242,9 @@ MEDIAQUERIES
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    footer {
+        width: 375px;
     }
 
 }    

@@ -9,6 +9,7 @@
                     v-on:click='selectedTool(toolClass.name)'
             ></button>
         </div>
+        <hr>
         <div class="writing-content">
             <div class="story-content" contenteditable>
                 <p style="color: black">Delete this line and start your story</p>
@@ -18,7 +19,7 @@
 </template>
 <script>
 export default {
-    name: 'WritePost',
+    name: 'WriteStory',
     data: function(){
         return {
             toolClasses: [
@@ -117,3 +118,40 @@ export default {
     }
 }
 </script>
+<style>
+    .writing-title {
+        text-align: center;
+        color: rgb(80, 180, 80);
+        margin-bottom: 20px;
+    }
+    
+    .tool-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tool-bar button {
+        border-radius: 3px;
+        font-size: 1.2rem;
+        padding: 4px;
+        margin: 5px;
+        outline: none;
+        cursor: pointer;
+        background: rgb(119, 180, 119);
+        border: 1px solid rgb(135, 180, 135);
+        overflow: hidden;
+        background-repeat:no-repeat;
+        color: white;
+    }
+
+    .writing-content {
+        margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+        .tool-bar button {
+            font-size: 1rem;
+            margin: 1px;
+        }
+    }
+</style>
