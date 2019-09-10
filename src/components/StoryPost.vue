@@ -14,8 +14,7 @@
         </div>
         <div class="chosen-story">
             <h3 class="story-title">{{ storyTitle }}</h3>
-            <div v-html="content" class='story-content'></div>
-            
+            <div v-html="content" class='story-content'></div>   
         </div>
     </div>
 </template>

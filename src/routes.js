@@ -3,6 +3,7 @@ import Contact from './pages/Contact.vue'
 import AboutMe from './pages/AboutMe.vue'
 import EnglishStory from './pages/Tools/EnglishStory.vue'
 import Calculator from './pages/Tools/Calculator.vue'
+import Dictionary from './pages/Tools/Dictionary.vue'
 
 
 export default [
@@ -30,5 +31,10 @@ export default [
         name: 'calculator',
         path:'/calculator',
         component: Calculator,
+    },
+    {
+        name: 'dictionary',
+        path:'/dictionary-word',
+        component: Dictionary,
     }
 ]

@@ -16,10 +16,7 @@
                     <li> <a href="/english-story">English Story</a> </li> 
                     <li> <a href="/calculator">Calculator</a> </li> 
                     <li> <a href="#">Todo List</a> </li> 
-                    <li> <a href="#">Drawing</a> </li> 
-                    <li> <a href="#">Dictionary</a> </li> 
-                    <li> <a href="#">Dynamic Image</a> </li> 
-                    <li> <a href="#">Trigonometry</a> </li> 
+                    <li> <a href="/dictionary-word">Dictionary</a> </li> 
                     <li> <a href="#">Countdown</a> </li> 
                 </ul> 
             </li> 
@@ -29,7 +26,6 @@
                 <ul class="collapse list-unstyled" id="pageSubmenu"> 
                     <li> <a href="#">Flappy Bird</a> </li> 
                     <li> <a href="#">Dinasour</a> </li> 
-                    <li> <a href="#">Barnley Fern</a> </li> 
                     <li> <a href="#">Rock Papper Sccisor</a> </li> 
                 </ul> 
             </li> 
