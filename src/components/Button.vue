@@ -18,7 +18,6 @@ export default {
         cursor: pointer;
         background: rgb(166, 209, 166);
         border: 1px solid rgb(173, 206, 173);
-        overflow: hidden;
         background-repeat:no-repeat;
 
     }

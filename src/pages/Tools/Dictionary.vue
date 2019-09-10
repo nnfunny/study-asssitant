@@ -7,8 +7,17 @@
                 <div class="container">
                 <h4 class="dictionary-title">Oxford Dictionary</h4>
                 <div class="word-input-container">
-                    <input type="text" class="input-word" placeholder="Enter a vocabulary" v-model="vocabulary">
-                    <button v-on:click="searchForVocabulary" v-on:keyup.enter="responseAPI">Find</button>
+                    <input 
+                            type="text" 
+                            class="input-word" placeholder="Enter a vocabulary" 
+                            v-model="vocabulary" 
+                            v-on:keyup.enter="searchForVocabulary"
+                    >
+                    <input 
+                            type="button" 
+                            v-on:click="searchForVocabulary" 
+                            value="Find"
+                    >
                 </div>
                 <dl v-if="responseAPI">
                     <dt class="syllables"><h5>{{ syllables }}</h5></dt>
@@ -202,7 +211,7 @@
         border: solid 1px rgb(80, 180, 80);
     }
 
-    .word-input-container button {
+    .word-input-container input[type=button] {
         border-radius: 5px;
         color: white;
         font-weight: bold;
@@ -215,12 +224,12 @@
         background-repeat:no-repeat;
     }
 
-    .word-input-container button:hover {
+    .word-input-container input[type=button]:hover {
         background: white;
         color: rgb(166, 209, 166);
     }
 
-    .word-input-container button:active {
+    .word-input-container input[type=button]:active {
         background-color: #93ad93;
         box-shadow: 0 2px rgb(114, 112, 112);
         transform: translateY(1px);

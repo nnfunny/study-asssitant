@@ -15,7 +15,7 @@
                 <ul class="collapse list-unstyled" id="homeSubmenu"> 
                     <li> <a href="/english-story">English Story</a> </li> 
                     <li> <a href="/calculator">Calculator</a> </li> 
-                    <li> <a href="#">Todo List</a> </li> 
+                    <li> <a href="/todo-list">Todo List</a> </li> 
                     <li> <a href="/dictionary-word">Dictionary</a> </li> 
                     <li> <a href="#">Countdown</a> </li> 
                 </ul> 

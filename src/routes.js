@@ -4,6 +4,7 @@ import AboutMe from './pages/AboutMe.vue'
 import EnglishStory from './pages/Tools/EnglishStory.vue'
 import Calculator from './pages/Tools/Calculator.vue'
 import Dictionary from './pages/Tools/Dictionary.vue'
+import TodoList from './pages/Tools/TodoList.vue'
 
 
 export default [
@@ -36,5 +37,10 @@ export default [
         name: 'dictionary',
         path:'/dictionary-word',
         component: Dictionary,
+    },
+    {
+        name: 'todo-list',
+        path:'/todo-list',
+        component: TodoList,
     }
 ]
