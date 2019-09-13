@@ -113,7 +113,7 @@ export default {
             document.execCommand('justifyRight',false,'')
         },
         selectedTool: function(tool){
-            return eval('this.' + tool +'()')
+            eval('this.' + tool +'()')
         }
     }
 }

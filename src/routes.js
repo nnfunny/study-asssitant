@@ -5,6 +5,7 @@ import EnglishStory from './pages/Tools/EnglishStory.vue'
 import Calculator from './pages/Tools/Calculator.vue'
 import Dictionary from './pages/Tools/Dictionary.vue'
 import TodoList from './pages/Tools/TodoList.vue'
+import CountDown from './pages/Tools/CountDown.vue'
 
 
 export default [
@@ -42,5 +43,10 @@ export default [
         name: 'todo-list',
         path:'/todo-list',
         component: TodoList,
+    },
+    {
+        name: 'countdown',
+        path:'/countdown-timer',
+        component: CountDown,
     }
 ]

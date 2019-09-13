@@ -42,7 +42,7 @@
                             </li>
                         </ol>
                     </dd>
-                    <hr>
+                    
                     <dd v-if="verbs.length">
                         <h5 class="word-form">Verb</h5>
                         <h6><b>Definition</b></h6>
@@ -62,7 +62,7 @@
                             </li>
                         </ol>
                     </dd>
-                    <hr>
+                    
                     <dd v-if="adjectives.length">
                         <h5 class="word-form">Adjective</h5>
                         <h6><b>Definition</b></h6>
@@ -82,7 +82,7 @@
                             </li>
                         </ol>
                     </dd>
-                    <hr>
+                    
                     <dd v-if="adverbs.length">
                         <h5 class="word-form">Adverb</h5>
                         <h6><b>Definition</b></h6>

@@ -17,7 +17,7 @@
                     <li> <a href="/calculator">Calculator</a> </li> 
                     <li> <a href="/todo-list">Todo List</a> </li> 
                     <li> <a href="/dictionary-word">Dictionary</a> </li> 
-                    <li> <a href="#">Countdown</a> </li> 
+                    <li> <a href="/countdown-timer">Countdown</a> </li> 
                 </ul> 
             </li> 
             <!-- Game Page --> 
@@ -42,9 +42,6 @@
         <ul class="list-unstyled CTAs"> 
             <li> 
                 <a class="download" ><button type="submit" id="subscribe" style="border: none; background: none; color: #84d184; box-shadow: none; cursor: pointer; outline: none;">Subscribe to Newsletters</button> </a> 
-            </li> 
-            <li> 
-                <input type="email" class="article">
             </li> 
         </ul>
     </nav>
