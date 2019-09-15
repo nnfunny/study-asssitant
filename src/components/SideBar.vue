@@ -24,9 +24,9 @@
             <li> 
                 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Games</a> 
                 <ul class="collapse list-unstyled" id="pageSubmenu"> 
-                    <li> <a href="#">Flappy Bird</a> </li> 
-                    <li> <a href="#">Dinasour</a> </li> 
-                    <li> <a href="#">Rock Papper Sccisor</a> </li> 
+                    <li> <a href="/flappy-bird">Flappy Bird</a> </li> 
+                    <li> <a href="/dinosaur">Dinasour</a> </li> 
+                    <li> <a href="/rock-papper-scissors">Rock Papper Scissor</a> </li> 
                 </ul> 
             </li> 
             <!-- README page --> 

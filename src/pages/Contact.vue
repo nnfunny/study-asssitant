@@ -1,23 +1,77 @@
-<template>  
-    <div class="wrapper">
-        <SideBar></SideBar>
-        <div id="content">
-            <Header title='Contact'></Header>
-            <div style="height: 20vh"></div>
-            <Footer></Footer>
+<template>
+  <div class="wrapper">
+    <SideBar></SideBar>
+    <div id="content">
+      <Header title="Contact"></Header>
+      <Footer></Footer>
+      <div class="container big-box">
+        <div class="contact-form form-group">
+          <h5
+            style="margin: 30px 0px; text-align: center;"
+          >Please send me your feedback or request of collaboration</h5>
+          <div class="email row">
+            <label for="email" class="col-sm-2">Your email</label>
+            <div class="col-sm-8">
+              <input type="text" name="email" class="form-control" placeholder="vnngu@deakin.edu.au" />
+            </div>
+          </div>
+          <div class="name row">
+            <label for="name" class="col-sm-2">Your name</label>
+            <div class="col-sm-8">
+              <input type="text" name="email" class="form-control" placeholder="Nam Nguyen" />
+            </div>
+          </div>
+          <div class="message row">
+            <label for="message" class="col-sm-2">Message</label>
+            <div class="col-sm-8">
+              <textarea class="form-control" placeholder="Explore my world..."></textarea>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </template>
 <script>
-    import Header from '../components/Header'
-    import SideBar from '../components/SideBar'
-    import Footer from '../components/Footer'
-    export default {
-        name: 'Contact',
-        components: {
-            Header,
-            SideBar,
-            Footer,
-        }
-    }
+import Header from "../components/Header";
+import SideBar from "../components/SideBar";
+import Footer from "../components/Footer";
+export default {
+  name: "Contact",
+  components: {
+    Header,
+    SideBar,
+    Footer
+  }
+};
 </script>
+<style coped>
+.big-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+
+  border: 0.5px solid rgba(178, 201, 178, 0.568);
+  box-shadow: 1px 1px 1px 1px rgba(145, 153, 145, 0.459);
+  margin-top: 10px;
+}
+
+.email,
+.name,
+.message {
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: bold;
+}
+
+@media (min-width: 765px) {
+  .email,
+  .name,
+  .message {
+    margin-left: 30px;
+  }
+}
+</style>
