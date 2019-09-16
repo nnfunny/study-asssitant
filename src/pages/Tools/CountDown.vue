@@ -47,7 +47,8 @@
             return {
                 minutes: "",
                 displayTime: "",
-                displayEndTime: ""
+                displayEndTime: "",
+                countdown: ""
             }
         },
         methods: {
@@ -66,25 +67,23 @@
             },
             startTimer: function(time){
                 let seconds = parseInt(time);
-                let countdown;
 
                 // Clear any last timers
-                clearInterval(countdown)
+                clearInterval(this.countdown)
 
                 const now = Date.now();
                 const then = now + seconds * 1000;
                 this.timeLeft(seconds);
                 this.endTime(then);
 
-                countdown = setInterval(() => {
+                this.countdown = setInterval(() => {
                     const secondsLeft = Math.round((then - Date.now()) / 1000);
                     if(secondsLeft < 0){
-                        clearInterval(countdown);
+                        clearInterval(this.countdown);
                         return;
                     }
                     this.timeLeft(secondsLeft)
                 }, 1000)
-
             },
             minutesInput: function() {
                 let minutes = parseFloat(this.minutes)
