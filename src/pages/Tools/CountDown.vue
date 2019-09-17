@@ -63,7 +63,7 @@
                 const hour = end.getHours();
                 const adjustedHour = hour > 12 ? hour - 12 : hour;
                 const minutes = end.getMinutes();
-                this.displayEndTime = `Be Back At ${adjustedHour < 10 ? '0' : ''}${adjustedHour}:${minutes < 10 ? '0' : ''}${minutes}`
+                this.displayEndTime = `Stop At ${adjustedHour < 10 ? '0' : ''}${adjustedHour}:${minutes < 10 ? '0' : ''}${minutes}`
             },
             startTimer: function(time){
                 let seconds = parseInt(time);
