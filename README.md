@@ -1,29 +1,6 @@
-# Study Assistant
+# Study Assistant 📚✨
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Project Description: 
+- Developed a website intending to students from primary schools to higher education such as university and college to increase their productivity and efficiency of studying.
+- Included useful tools, such as calculator, to-do list, dictionary, etc. and games to reduce student’s stress and minimize the study pressure on their shoulders.
+- Built up by [Vue.js](https://vuejs.org/) framework, a progressive front-end framework
